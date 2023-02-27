@@ -1,0 +1,99 @@
+/*SELETOR UNIVERSAL*/
+* {
+    margin: 0;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:burlywood;
+
+}
+
+
+header {
+    background-image: url(../IMG/DSC_3070.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
+
+header h1,
+header p{
+    color: white;
+}
+
+
+button {
+    background-color: yellow;
+    color:blueviolet;
+}
+
+/*SOBRE*/
+
+.sobre{
+
+    margin: 0 auto 60px; 
+    padding: 0 90px;
+}
+
+.sobre section {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.sobre h2 {
+    margin-bottom: 10px;
+}
+
+.descricao {
+    
+}
+
+.habilidades {
+    
+}
+
+.descricao,
+.habilidades{
+    width: 50%;
+
+}
+.meucv {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: yellow;
+    color: blueviolet;
+    padding: 1px 6px;
+    border: 2px solid #666;
+    text-decoration: none;
+
+}
+
+footer{
+    margin: 0 auto; 
+    padding: 0 30px;
+}
+.social-media {
+    display: flex;
+    gap: 5px;
+
+    
+}
+
+.social-media a {
+    background-color:blueviolet;
+
+    color: yellow;
+    text-decoration: none;
+    text-align: center;
+    width: 400px;
+    display: block;
+}
